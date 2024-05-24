@@ -1,0 +1,88 @@
+//+ Name: Sweep Pad
+//+ Date: 2019-08-13
+//+ URL: http://freepats.zenvoid.org/Synthesizer/synth-pad.html#SweepPad
+
+<global>
+ //+ Instrument: Sweep Pad
+ ampeg_release=1.0
+ loop_mode=loop_continuous
+
+<group>
+<region>
+ lokey=33 hikey=37
+ pitch_keycenter=36
+ loop_start=32767
+ loop_end=352255
+ sample=samples/C2.flac
+<region>
+ lokey=38 hikey=41
+ pitch_keycenter=40
+ loop_start=43199
+ loop_end=336063
+ sample=samples/E2.flac
+<region>
+ lokey=42 hikey=45
+ pitch_keycenter=44
+ loop_start=27903
+ loop_end=329471
+ sample=samples/G#2.flac
+<region>
+ lokey=46 hikey=49
+ pitch_keycenter=48
+ loop_start=34720
+ loop_end=357321
+ sample=samples/C3.flac
+<region>
+ lokey=50 hikey=53
+ pitch_keycenter=52
+ loop_start=34303
+ loop_end=321535
+ sample=samples/E3.flac
+<region>
+ lokey=54 hikey=57
+ pitch_keycenter=56
+ loop_start=36760
+ loop_end=291327
+ sample=samples/G#3.flac
+<region>
+ lokey=58 hikey=61
+ pitch_keycenter=60
+ loop_start=21167
+ loop_end=352511
+ sample=samples/C4.flac
+<region>
+ lokey=62 hikey=65
+ pitch_keycenter=64
+ loop_start=33791
+ loop_end=346623
+ sample=samples/E4.flac
+<region>
+ lokey=66 hikey=69
+ pitch_keycenter=68
+ loop_start=31207
+ loop_end=309247
+ sample=samples/G#4.flac
+<region>
+ lokey=70 hikey=73
+ pitch_keycenter=72
+ loop_start=17382
+ loop_end=302079
+ sample=samples/C5.flac
+<region>
+ lokey=74 hikey=77
+ pitch_keycenter=76
+ loop_start=46591
+ loop_end=329727
+ sample=samples/E5.flac
+<region>
+ lokey=78 hikey=81
+ pitch_keycenter=80
+ loop_start=24298
+ loop_end=273147
+ sample=samples/G#5.flac
+<region>
+ lokey=82 hikey=96
+ pitch_keycenter=84
+ loop_start=28385
+ loop_end=304344
+ sample=samples/C6.flac
